@@ -4,7 +4,7 @@ Survey Simulator is a small turn-based game where the player aims to score as ma
 The player must plan ahead and calculate risks related to which tiles to capture, maximise the points earned, and avoid the Creep. The game ends when the player has no tiles left to capture in their immediate vicinity.
 
 ## Installation
-This project was developed in Unity 2017.3(0f3), and works best with this version of the editor. Some issues have cropped up with TextMesh Pro, so the following is the recommended course of action:
+This project was developed in Unity 2017.3(0f3), and works best with this version of the editor. Some issues have cropped up with TextMesh Pro, so I've omitted TextMesh Pro files from the project completely. To install the project on your local machine, do the following:
 - Clone/download or extract the project onto your machine.
 - download TextMesh Pro from the Asset Store and import it into the project.
 
