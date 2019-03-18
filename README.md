@@ -8,6 +8,8 @@ This project was developed in Unity 2017.3(0f3), and works best with this versio
 - Clone/download or extract the project onto your machine.
 - download TextMesh Pro from the Asset Store and import it into the project.
 
+**NB: For now, putting in the new TextMesh Pro folder causes some issues with text rendering. Not all text fits well into panels and other UI elements.**
+
 ## Project Philosophies
 **1. Centralised control flow**: This project avoids having multiple classes use Unity's Awake() and Start() methods which often leads to increasingly complex flows of control. The flow of control is instead restricted to the ManagerGame.cs class which replicates the entry-point functionality of the C# Main() method. User input (mouse clicks) sees the flow of control re-directed to the ManagerGame.cs class. In this way, the program is intended to be fairly easy to understand and modify. The ManagerGame.cs class also handles setting up the game and the game loop.
 
